@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+}
+
+.pachaqtec {
+  background-image: url('../images/imagen1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 200px;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: white;
+  padding: 10px;
+  font-family: Helvetica;
+}
+
+section {
+  padding: 20px;
+}
+
+.skills {
+  background-color: blueviolet;
+}
+
+.sobre-mi {
+  background-color: #7299fe;
+}
+
+.portafolio {
+  background-color: #ffd233;
+}
+
+.portafolio .imagenes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.portafolio .imagenes figure {
+  padding: 10px;
+}
+.clientes {
+  background-color: #3f4e62;
+}
+
+.clientes ul {
+  display: flex;
+  list-style-type: none ;
+}
+
+.clientes ul li {
+  padding-right: 100px;
+}
+
+footer {
+  background-color: #9c9c9c;
+  padding: 20px;
+}
