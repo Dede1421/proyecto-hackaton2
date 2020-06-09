@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A form</title>
+</head>
+
+<body>
+
+  <form action="#" >
+    <label for="us-name">Nombre</label>
+    <input type="text" name="us-name" id="us-name" placeholder="Nombre" required>
+
+    <label for="us-lastname">Apellido</label>
+    <input type="text" name="us-lastname" id="us-lastname" placeholder="Apellido" required>
+
+    <br><br>
+    <label for="us-age">Edad</label>
+    <input type="number" name="us-age" id="us-age" placeholder="Edad" required>
+
+    <label for="us-country">Nacionalidad</label>
+    <select name="us-country" id="us-country">
+      <option value="">Selecciona tu País</option>
+      <option value="1">Perú</option>
+      <option value="2">Brasil</option>
+      <option value="3">Argentina</option>
+    </select>
+    <br><br>
+    <label for="us-phone">Celular</label>
+    <input type="tel" name="us-phone" id="us-phone" placeholder="Celular" required>
+
+    <label for="us-email">Correo</label>
+    <input type="email" name="us-email" id="us-email" placeholder="Correo" required>
+    <br><br>
+
+    <label>Sexo</label>
+    <label>
+      <input type="radio" name="us-sex" value="M" required>
+      M
+    </label>
+    <label>
+      <input type="radio" name="us-sex" value="F" required>
+      F
+    </label>
+    
+    <label>¿Cuál es tu artista favorito?</label>
+    <input type="text" name="us-Favorite-Artist" required>
+    <br><br>
+
+    <label>¿Tienes mascota?</label>
+    <label>
+      <input type="radio" name="us-pet" value="Si" required>
+      Si
+    </label>
+    <label>
+      <input type="radio" name="us-pet" value="No" required>
+      No
+    </label>
+    <br><br>
+    <label for="us-comments">Comentarios</label><br>
+    <textarea name="comments" id="us-comments" cols="30" rows="10"></textarea>
+    <br>
+    <button>Enviar</button>
+
+  </form>
+
+</body>
+
+</html>
