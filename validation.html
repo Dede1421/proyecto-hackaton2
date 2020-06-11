@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      text-align: center;
+      font-family: arial;
+    }
+
+    form {
+      border: 1px solid #cdcdcd;
+      display: inline-block;
+      width: 100%;
+      max-width: 400px;
+      padding: 20px;
+      background: yellowgreen;
+      margin-top: 120px;
+    }
+
+    input {
+      padding: 10px;
+      transition: all .5s ease;
+      border: 3px solid #cdcdcd;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    input:focus {
+      outline: none;
+      box-shadow: 0 0 10px #cdcdcd;
+    }
+
+    input:disabled,
+    input:read-only {
+      background: #cbcbcb;
+    }
+
+    input:invalid:focus {
+      border-color: red;
+    }
+
+    input:valid:focus {
+      border-color: blue;
+    }
+
+    select,
+    textarea {
+
+      padding: 10px;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    button {
+      background-color: blue;
+      padding: 10px;
+      color: white;
+      border: 1px solid blue;
+      cursor: pointer;
+      width: 100%;
+      max-width: 400px;
+    }
+  </style>
+</head>
+
+<body>
+  <form action="#">
+
+    <input type="text" name="us-name" placeholder="Nombre" required pattern="[A-Za-z]+">
+    <br><br>
+    <input type="text" name="us-lastname" placeholder="Apellido" required pattern="[A-Za-z]+">
+    <br><br>
+    <input type="number" name="us-age" placeholder="Edad" required min="18" max="65" pattern="[0-9]+">
+    <br><br>
+    <input type="email" name="us-email" placeholder="Correo" required>
+    <br><br>
+
+    <label>Sexo</label>
+    <label>
+      <input type="radio" name="us-sex" value="M" required>
+      M
+    </label>
+    <label>
+      <input type="radio" name="us-sex" value="F" required>
+      F
+    </label>
+
+    <br><br>
+    <input type="text" name="us-hobby" placeholder="Hobbies" required>
+    <br><br>
+    <select name="us-country" required>
+      <option value="">Selecciona tu país</option>
+      <option value="peru">Perú</option>
+      <option value="brasil">Brasil</option>
+      <option value="ecuador">Ecuador</option>
+    </select>
+    <br><br>
+    <select name="us-city" required>
+      <option value="">Selecciona tu ciudad</option>
+      <option value="lima">Lima</option>
+      <option value="brasilia">Brasilia</option>
+      <option value="guayaquil">Guayaquil</option>
+    </select>
+    <br><br>
+    <input type="text" name="us-district" placeholder="Distrito" required pattern="[A-Za-z]+">
+    <br><br>
+    <textarea name="us-comments" placeholder="comentarios" required pattern="[A-Za-z]+" cols="20" rows="10"></textarea>
+    <br><br>
+    <button>Enviar</button>
+
+
+  </form>
+
+</body>
+
+</html>
