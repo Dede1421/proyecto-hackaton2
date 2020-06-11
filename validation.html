@@ -33,6 +33,10 @@
       max-width: 400px;
     }
 
+    .iradio {
+      width: 10px;
+    }
+
     input:focus {
       outline: none;
       box-shadow: 0 0 10px #cdcdcd;
@@ -59,6 +63,16 @@
       max-width: 400px;
     }
 
+    .gender {
+      display: flex;
+      justify-content: center;
+    }
+
+    .gender >label {
+      padding-right: 30px;
+    }
+
+  
     button {
       background-color: blue;
       padding: 10px;
@@ -83,15 +97,15 @@
     <input type="email" name="us-email" placeholder="Correo" required>
     <br><br>
 
-    <label>Sexo</label>
-    <label>
-      <input type="radio" name="us-sex" value="M" required>
-      M
-    </label>
-    <label>
-      <input type="radio" name="us-sex" value="F" required>
-      F
-    </label>
+    <div class="gender">
+      <label>Sexo</label> <br>
+      <div>
+        <label>M</label>
+        <input class="iradio" type="radio" name="us-sex" value="M" required>
+        <label>F</label>
+        <input class="iradio" type="radio" name="us-sex" value="F" required>
+      </div>
+    </div>
 
     <br><br>
     <input type="text" name="us-hobby" placeholder="Hobbies" required>
