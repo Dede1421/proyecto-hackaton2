@@ -1,62 +1,70 @@
+/*Globals*/
 * {
   margin: 0;
 }
-
-.pachaqtec {
-  background-image: url('../images/imagen1.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 200px;
+p {
+  font-family: arial;
+  font-size: 16px;
+  padding: 20px;
 }
 
-h1,
-h2,
-h3,
-p {
+h2 {
+  padding: 20px;
+}
+
+/*Estilos de header */
+header {
+  background-color: red;
+  text-align: center;
   color: white;
   padding: 10px;
-  font-family: Helvetica;
+  font-size: 42px;
 }
 
-section {
-  padding: 20px;
+/*Estilos de section 1*/
+.sub-1 {
+  background-color: blue;
+  color: white;
+  font-size: 28px;
+
 }
 
-.skills {
-  background-color: blueviolet;
+.sub-1 h2 {
+  color: #ebff00;
+  
 }
 
-.sobre-mi {
-  background-color: #7299fe;
-}
-
-.portafolio {
-  background-color: #ffd233;
-}
-
-.portafolio .imagenes {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.portafolio .imagenes figure {
-  padding: 10px;
-}
-.clientes {
-  background-color: #3f4e62;
-}
-
-.clientes ul {
+.sub-1 div {
   display: flex;
-  list-style-type: none ;
+  
 }
 
-.clientes ul li {
-  padding-right: 100px;
-}
-
-footer {
-  background-color: #9c9c9c;
+.sub-1 div figure {
   padding: 20px;
+}
+
+/*Estilos Section 2 */
+.sub-2 {
+  background-color: orange;
+  color: white;
+  font-size: 28px;
+}
+
+.sub-2 h2 {
+  color: #FF00A8;
+}
+
+.sub-2 div {
+  display: flex;
+}
+
+.sub-2 div figure {
+  padding: 20px;
+}
+
+/*Estilos de footer */
+footer {
+  background-color: red;
+  color: white;
+  text-align: center;
 }
