@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A form</title>
+  <link href="./styles/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <a href="#">Logo</a>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">Mas mascotas amigables</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Mascotas amigables</h1>
+    <section>
+      <h2>Cachorros</h2>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt labore natus, corporis atque quae vero laborum,
+        quibusdam dicta cumque voluptates, aperiam ex eum maxime maiores dolore quis consequuntur ab consequatur. Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Explicabo vero iste consequatur quas tempore? Voluptatum
+        ipsum, at minus, voluptatibus libero quasi eum beatae doloremque perferendis fuga quas? Impedit, soluta
+        possimus!</p>
+      <figure>
+        <img src="https://img.vixdata.io/pd/jpg-large/es/sites/default/files/cachorro-golden-filhote-0717-1400x800.jpg"
+          alt="Un cachorrito" width="300">
+      </figure>
+    </section>
+    <section>
+      <h2>Formulario</h2>
+      <form action="#">
+        <input type="text" name="us-name" placeholder="Nombre" required pattern="[A-Za-z]+">
+        <input type="text" name="us-lastname" placeholder="Apellido" required pattern="[A-Za-z]+">
+        <br><br>
+        <input type="number" name="us-age" placeholder="Edad" required min="18" required max="80">
+        <label>Sexo:</label>
+        <label>M</label>
+        <input type="radio" name="us-sex" value="M" required>
+        <label>F</label>
+        <input type="radio" name="us-sex" value="F" required>
+        <br><br>
+        <input type="text" name="us-ID" placeholder="DNI" required pattern="\d{8}">
+        <input type="email" name="us-email" placeholder="Correo" required>
+        <br><br>
+        <button>Enviar</button>
+      </form>
+
+
+</body>
+
+</html>
