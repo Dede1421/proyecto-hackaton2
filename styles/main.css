@@ -1,13 +1,14 @@
-* {
-  margin: 0;
+/*Globals*/
+h2 {
+  font-size: 36px;
 }
 
-.pachaqtec {
-  background-image: url('../images/imagen1.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 200px;
+body {
+  text-align: center;
+}
+
+section {
+  padding: 20px;
 }
 
 h1,
@@ -19,18 +20,30 @@ p {
   font-family: Helvetica;
 }
 
-section {
-  padding: 20px;
+/*Estilo de la Sección 1 */
+.banner {
+  background-image: url('../images/banner.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 400px;
 }
 
-.skills {
-  background-color: blueviolet;
+.banner h1 {
+  font-size: 64px;
 }
 
+/*Estilo de la Sección 2 */
 .sobre-mi {
   background-color: #7299fe;
 }
 
+/*Estilo de la Sección 3 */
+.skills {
+  background-color: blueviolet;
+}
+
+/*Estilo de la Sección 4 */
 .portafolio {
   background-color: #ffd233;
 }
@@ -43,6 +56,8 @@ section {
 .portafolio .imagenes figure {
   padding: 10px;
 }
+
+/*Estilo de la Sección 5 */
 .clientes {
   background-color: #3f4e62;
 }
@@ -53,10 +68,21 @@ section {
 }
 
 .clientes ul li {
-  padding-right: 100px;
+  padding: 80px;
 }
 
+/*Estilo del footer */
 footer {
   background-color: #9c9c9c;
   padding: 20px;
+}
+
+input {
+  padding: 20px;
+  width: 300px;
+  margin: 10px
+}
+
+textarea {
+  width: 700px;
 }
