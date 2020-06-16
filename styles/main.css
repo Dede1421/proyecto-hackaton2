@@ -1,88 +1,42 @@
 /*Globals*/
-h2 {
-  font-size: 36px;
-}
-
 body {
-  text-align: center;
+  font-family: arial;
+  font-size: 13px;
+  line-height: 1.5;
 }
 
-section {
-  padding: 20px;
+
+/*Section 1*/
+.history h2 {
+  color: rgb(65, 197, 98);
 }
 
-h1,
-h2,
-h3,
-p {
-  color: white;
-  padding: 10px;
-  font-family: Helvetica;
+.history p {
+  color: teal;
+}
+/*Section 2*/
+.geography h2 {
+  color: rgb(148, 140, 71);
 }
 
-/*Estilo de la Sección 1 */
-.banner {
-  background-image: url('../images/banner.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 400px;
+.history p {
+  color: gray;
 }
 
-.banner h1 {
-  font-size: 64px;
+/*Section 3*/
+.economy h2 {
+  color: rgb(96, 22, 139);
 }
 
-/*Estilo de la Sección 2 */
-.sobre-mi {
-  background-color: #7299fe;
+.economy p {
+  color: turquoise;
 }
 
-/*Estilo de la Sección 3 */
-.skills {
-  background-color: blueviolet;
+/*Section 4*/
+.culture h2 {
+  color: rgb(30, 8, 51);
 }
 
-/*Estilo de la Sección 4 */
-.portafolio {
-  background-color: #ffd233;
-}
-
-.portafolio .imagenes {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.portafolio .imagenes figure {
-  padding: 10px;
-}
-
-/*Estilo de la Sección 5 */
-.clientes {
-  background-color: #3f4e62;
-}
-
-.clientes ul {
-  display: flex;
-  list-style-type: none ;
-}
-
-.clientes ul li {
-  padding: 80px;
-}
-
-/*Estilo del footer */
-footer {
-  background-color: #9c9c9c;
-  padding: 20px;
-}
-
-input {
-  padding: 20px;
-  width: 300px;
-  margin: 10px
-}
-
-textarea {
-  width: 700px;
+.culture p {
+  color: indigo;
 }
