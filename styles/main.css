@@ -1,10 +1,20 @@
 /*Globals*/
+* {
+  box-sizing: border-box;
+}
+
 h2 {
   font-size: 36px;
 }
 
 body {
   text-align: center;
+}
+
+main {
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
 }
 
 section {
@@ -27,10 +37,19 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 400px;
+  position: relative;
 }
 
 .banner h1 {
   font-size: 64px;
+}
+
+.banner-box {
+  width: 40%;
+  position: absolute;
+  bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
 }
 
 /*Estilo de la Sección 2 */
@@ -43,6 +62,26 @@ p {
   background-color: blueviolet;
 }
 
+.skills .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.bar {
+  width: 93%;
+  height: 30px;
+  border-radius: 20px;
+  margin: 10px;
+  background: white;
+}
+
+.blue-bar {
+  width: 50%;
+  height: 30px;
+  border-radius: 20px;
+  background: blue;
+}
+
 /*Estilo de la Sección 4 */
 .portafolio {
   background-color: #ffd233;
@@ -50,11 +89,15 @@ p {
 
 .portafolio .imagenes {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .portafolio .imagenes figure {
   padding: 10px;
+}
+
+.portafolio .imagenes figure img {
+  width: 75%;
 }
 
 /*Estilo de la Sección 5 */
@@ -64,11 +107,15 @@ p {
 
 .clientes ul {
   display: flex;
-  list-style-type: none ;
+  list-style-type: none;
 }
 
 .clientes ul li {
-  padding: 80px;
+  width: 30%;
+}
+
+.clientes img {
+  width: 80%;
 }
 
 /*Estilo del footer */
@@ -79,10 +126,12 @@ footer {
 
 input {
   padding: 20px;
-  width: 300px;
-  margin: 10px
+  width: 33%;
+  margin: 5px;
+  border: none;
 }
 
 textarea {
-  width: 700px;
+  width: 68%;
+  border: none;
 }
