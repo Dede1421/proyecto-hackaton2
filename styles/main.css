@@ -3,10 +3,6 @@
   box-sizing: border-box;
 }
 
-h2 {
-  font-size: 36px;
-}
-
 body {
   text-align: center;
 }
@@ -14,11 +10,26 @@ body {
 main {
   max-width: 960px;
   width: 100%;
-  margin: 0 auto;
+  margin: auto;
 }
 
 section {
-  padding: 20px;
+  padding: 35px;
+}
+
+section h2 {
+  margin-bottom: 40px;
+}
+
+button {
+  padding: 10px 30px;
+  margin: 20px auto;
+  border: none;
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 36px;
 }
 
 h1,
@@ -26,7 +37,6 @@ h2,
 h3,
 p {
   color: white;
-  padding: 10px;
   font-family: Helvetica;
 }
 
@@ -36,12 +46,13 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 400px;
+  padding-bottom: 510px;
   position: relative;
 }
 
 .banner h1 {
   font-size: 64px;
+  padding-bottom: 20px;
 }
 
 .banner-box {
@@ -50,11 +61,16 @@ p {
   bottom: 20px;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 6px;
+  padding: 10px;
 }
 
 /*Estilo de la Sección 2 */
 .about-me {
   background-color: #7299fe;
+}
+
+.about-me p {
+  line-height: 1.5;
 }
 
 /*Estilo de la Sección 3 */
@@ -65,6 +81,7 @@ p {
 .skills .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  padding: 10px;
 }
 
 .bar {
@@ -96,7 +113,7 @@ p {
   padding: 10px;
 }
 
-.portfolio .images figure img {
+.portfolio img {
   width: 75%;
 }
 
@@ -121,7 +138,6 @@ p {
 /*Estilo de la Sección 5 */
 .contacts {
   background-color: #9c9c9c;
-  padding: 20px;
 }
 
 input {
