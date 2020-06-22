@@ -14,7 +14,7 @@ body {
 main {
   max-width: 960px;
   width: 100%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 section {
@@ -53,7 +53,7 @@ p {
 }
 
 /*Estilo de la Sección 2 */
-.sobre-mi {
+.about-me {
   background-color: #7299fe;
 }
 
@@ -83,43 +83,43 @@ p {
 }
 
 /*Estilo de la Sección 4 */
-.portafolio {
+.portfolio {
   background-color: #ffd233;
 }
 
-.portafolio .imagenes {
+.portfolio .images {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
-.portafolio .imagenes figure {
+.portfolio .images figure {
   padding: 10px;
 }
 
-.portafolio .imagenes figure img {
+.portfolio .images figure img {
   width: 75%;
 }
 
 /*Estilo de la Sección 5 */
-.clientes {
+.clients {
   background-color: #3f4e62;
 }
 
-.clientes ul {
+.clients ul {
   display: flex;
   list-style-type: none;
 }
 
-.clientes ul li {
+.clients ul li {
   width: 30%;
 }
 
-.clientes img {
+.clients img {
   width: 80%;
 }
 
-/*Estilo del footer */
-footer {
+/*Estilo de la Sección 5 */
+.contacts {
   background-color: #9c9c9c;
   padding: 20px;
 }
